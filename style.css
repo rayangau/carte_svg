@@ -1,0 +1,74 @@
+body{
+	color:#3B0B17;
+	font-family: veranda;
+}
+.text{
+	font-size: 2em;
+	font-weight: bold;
+	 background-color:#3B0B17;
+	 color:#FA5882;
+}
+.img{
+	text-align: center;
+	margin-left: 21%;
+	margin-top:7%;
+}
+.image{
+	margin-top: 2%;
+	margin-left: 16%;
+	width:50%;
+	height:50%;
+}
+h2{
+	margin-left: 35%;
+	font-size: 3em
+}
+ .formulaire{
+		color:#FA5882;
+      position:relative;
+      left:36%;
+      width:20%;
+      height:10%;
+      background-color:#3B0B17;
+      padding:10px;
+      border-radius: 5%;
+      cursor:pointer;
+    }
+
+    placeholder{
+     color:black;
+     font-weight:bold
+   }
+
+a{
+	color:#3B0B17;
+}
+@media screen and (max-width: 1262px){
+   
+   img{
+      width:90%;
+      margin-left: 0px;
+    }
+   text{
+margin-top: 5%;
+   }
+  
+  }
+
+@media screen and (max-width: 762px){
+
+   .poly{
+   	margin-top: 55%;
+   }
+   .formulaire{
+   	
+   	margin-left: 7%;
+   }
+   #nom, #prez, #email{
+width:50%;
+   }
+   img{
+      width:100%;
+      margin-left: 10px;
+    }
+}

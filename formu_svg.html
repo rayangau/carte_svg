@@ -1,0 +1,39 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1 style="text-align: center;font-size: 3em;font-weight: bold;color:purple">Envoi de la carte de voeux</h1>
+
+
+        <form method="POST" action="trait.php" style="text-align: center;font-size: 2em;font-weight: bold">
+
+         
+          <label for="nom">Entrez votre Nom</label>
+          <input type="text id="nom" name="nom"><br>
+
+          <label for="prez">Message</label>
+          <textarea id="prez" name="message"></textarea><br>
+
+          <label for="email">Destinataire</label>
+          <input type="text" id="email" name="destinataire">
+          
+          <input type="submit" name="value">
+        </form>
+    
+
+
+ 
+
+
+
+<?php echo $message ?>
+
+</body>
+
+</html>
